@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* base styles */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: white;
+
+}
+ul{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+
+}
+
+    
+.navbar{
+    
+}
+
+.nav, .nav2{
+    display: flex;
+    padding-top: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.nav li, .nav2 li{
+    font-weight: 300;
+    font-size: 16px;
+}
+.nav li{
+    margin-left: 20px;
+}
+.nav2 li{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    width: 25px;
+    height: 25px;
+}
+
+/* In styles */
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 30px;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.box img{
+    width:20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.box .voice{
+    margin: 0 436px;
+}
+
+.texts{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 20px;
+    
+}
+.text{
+    background-color: rgb(240, 239, 239);
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.lang{
+    
+    margin-left: 10px;
+    padding: 3px;
+}
+
+/* footer styles */
+.footer{
+    position: relative;
+    top: 270px;
+}
+.footer1, .footer2{
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    height: 30px;
+    align-items: center;
+   margin:0 10px;  
+}
+.footer1{
+    border: 2px solid rgb(173, 173, 173);
+}
+.footer2{
+    justify-content: space-between;
+}
+h2{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footertext, .footertext2{
+    display: flex;
+    margin-left: 0px;
+}
+.footertext li, .footertext2 li{
+    font-weight: 400;
+    font-size: 16px;
+}
+.footertext li{
+    margin-left: 20px;
+}
+.footertext2 li{
+    margin-right: 20px;
+}
+
